@@ -24,14 +24,35 @@
     padding: 5px;
     box-shadow: 5px 5px 20px  rgba(3, 3, 114, 0.3); 
 }
-/* Aangepaste stijlen voor de navigatieknoppen */
+@media (max-width: 576px) {
+     .mobile-button {
+        width: 50%;
+    }
+    .form-group label {
+        text-align: center;
+        width: 100%;
+    }
+
+    .form-group input,
+    .form-group textarea 
+    .form-group button{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+}
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff; /* Tekstkleur van de knoppen */
+    border: 2px solid transparent; /* Voeg een transparante rand toe */
+    padding: 5px 10px; /* Voeg wat ruimte toe binnen de knoppen */
+    border-radius: 5px; /* Afgeronde hoeken van de knoppen */
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
     color: #ffffff; /* Tekstkleur van de knoppen bij hover/focus */
+    background-color: purple; /* Achtergrondkleur bij hover/focus */
+    border: 2px solid purple; /* Voeg een paarse rand toe bij hover/focus */
 }
 
 /* Aangepaste achtergrondkleur voor actieve knop */
@@ -47,28 +68,20 @@ img {
 .row [class^="col-md-"] {
     padding: 15px;
 }
-.container h1{
-    background-color: purple;
-    padding: 10px;  
-    color: white; 
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(3, 3, 114, 0.3);
-}
-.p{
-    font-size: 12px;
-}
 .container-sm h1{
     background-color: purple;
-    padding: 10px;  
+    padding: 15px;  
     color: white; 
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(3, 3, 114, 0.3);
+    font-size:24px;
 }
 .h2{
     background-color: purple;   
-    padding: 10px;  
+    padding: 15px;  
     color: white; 
-    border-radius: 10px; 
+    border-radius: 15px; 
+    font-size:14px;
 }
 footer {
     padding: 50px;
@@ -81,6 +94,39 @@ footer {
     align-items: center;
     max-width: 100%;
     }
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 500px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px; box-shadow: inset 2px 2px 5px purple;
+    }
+textarea{
+        height: 150px;
+        padding: 5px 4px;
+    }
+#accordionExample .accordion-button {
+    background-color: purple;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+  }
+#accordionExample .accordion-button:focus {
+    box-shadow: none;
+  }
+#accordionExample .accordion-button:not(.collapsed) {
+    background-color: purple;
+  }
+#accordionExample .accordion-header {
+    background-color: transparent;
+  }
+#accordionExample .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
 .li class{
     background-color: green;
     border-radius: 15px;
@@ -119,7 +165,45 @@ input[type="text"], input[type="email"], textarea, select, button{
     margin: 20px;
     padding: 20px;
   }
-  ,div class="form-group"{
-    padding: 75%;
-    margin: 10px;
-  }
+#name {
+    width: 75%;
+    position: center;
+}
+#email{
+width: 75%;
+position: center;
+}
+#Bericht{
+width: 75%;
+position: center;
+}
+.custom-button {
+    font-size: 14px; /* Pas de gewenste grootte aan */
+    padding: 5px 10px; /* Pas de gewenste padding aan */
+    border-radius: 5px; /* Pas de gewenste afgeronde hoeken aan */
+    /* Voeg andere stijlen toe indien nodig */
+}
+ .accordion-button b {
+    font-size: 18px; /* Maakt de tekst kleiner */
+    text-align: left; /* Uitlijning van de tekst */
+    width: 100%; /* Volledige breedte van de tekst */
+}
+
+ 
+.accordion-body {
+    border: 1px solid #ccc; /* Kaderkleur en -dikte */
+    padding: 10px; /* Ruimte binnen het kader */
+    border-radius: 5px; /* Afgeronde hoeken van het kader */
+}
+.input type{
+    font-size: 18px; /* Maakt de tekst kleiner */
+    text-align: left; /* Uitlijning van de tekst */
+    width: 50%; /* Volledige breedte van de tekst */
+}
+
+/* Kader om de tekstvakken in het accordeon */
+.input type{
+    border: 1px solid #ccc; /* Kaderkleur en -dikte */
+    padding: 10px; /* Ruimte binnen het kader */
+    border-radius: 5px; /* Afgeronde hoeken van het kader */
+}
