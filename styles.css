@@ -1,0 +1,125 @@
+.navbar {
+    background-color: #418f11;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+.navbar-nav .nav-link {
+    color: rgb(212, 14, 14);
+}
+.navbar-nav .nav-link:hover {
+    color: #333333;
+}
+.form-label {
+    font-weight: bold;
+}
+.form-control {
+    border-color: #3ce76a; 
+}
+.btn-primary {
+    background-color: #2084b1; 
+    border-color: #2f11d4;
+}
+.img-fluid {
+    padding: 5px;
+    box-shadow: 5px 5px 20px  rgba(3, 3, 114, 0.3); 
+}
+/* Aangepaste stijlen voor de navigatieknoppen */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* Tekstkleur van de knoppen */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #ffffff; /* Tekstkleur van de knoppen bij hover/focus */
+}
+
+/* Aangepaste achtergrondkleur voor actieve knop */
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+    background-color: purple;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: center;
+  }
+.row [class^="col-md-"] {
+    padding: 15px;
+}
+.container h1{
+    background-color: purple;
+    padding: 10px;  
+    color: white; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(3, 3, 114, 0.3);
+}
+.p{
+    font-size: 12px;
+}
+.container-sm h1{
+    background-color: purple;
+    padding: 10px;  
+    color: white; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(3, 3, 114, 0.3);
+}
+.h2{
+    background-color: purple;   
+    padding: 10px;  
+    color: white; 
+    border-radius: 10px; 
+}
+footer {
+    padding: 50px;
+    margin: 50px;
+    color: #fff;  
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    }
+.li class{
+    background-color: green;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba (4, 4, 114, 0.5);
+}
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 500px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px; box-shadow: inset 2px 2px 5px purple;
+    }
+    textarea{
+        height: 150px;
+        padding: 5px 4px;
+    }
+#accordionExample .accordion-button {
+    background-color: purple;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+  }
+    #accordionExample .accordion-button:focus {
+    box-shadow: none;
+  }
+    #accordionExample .accordion-button:not(.collapsed) {
+    background-color: purple;
+  }
+    #accordionExample .accordion-header {
+    background-color: transparent;
+  }
+    #accordionExample .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+  ,div class="form-group"{
+    padding: 75%;
+    margin: 10px;
+  }
